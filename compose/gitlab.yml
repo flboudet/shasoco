@@ -6,7 +6,7 @@
 # - redis
 #
 gitlab:
-    image: sameersbn/gitlab:8.2.1-1
+    image: sameersbn/gitlab:9.4.4
     hostname: gitlab.<%=domain%>
     restart: always
     links:
